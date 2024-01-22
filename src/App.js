@@ -9,26 +9,26 @@ import Track from './Track';
 function App() {
   return (
     <>
-    <div id='searchContainer'>
-      <div>
-        <SearchBar />
+      <div id='searchContainer'>
+        <div>
+          <SearchBar />
+        </div>
+        <div>
+          <SearchResults />
+        </div>
       </div>
-      <div>
-      <SearchResults />
+      <div id='playlistContainer'>
+        <Playlist />
       </div>
-    </div>
-    <div id='playlistContainer'>
-      <Playlist />
-    </div>
-    <div id='TracklistContainer'>
-      <Tracklist />
-    </div>
-    <div id='currentTrack'>
-      <Track />
-    </div>
+      <div id='TracklistContainer'>
+        <Tracklist />
+      </div>
+      <div id='currentTrack'>
+        <Track />
+      </div>
     </>
-    
-    
+
+
   );
 }
 
